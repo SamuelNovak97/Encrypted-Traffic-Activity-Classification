@@ -1,4 +1,4 @@
-# Encrypted Traffic Activity Classification (Wi‑Fi/LAN) — Real‑Time Heuristics
+# Encrypted Traffic Activity Classification (Wi‑Fi/LAN) using Real‑Time Heuristics
 
 ## Abstract
 This project infers user activity from **encrypted** Wi‑Fi/LAN traffic in real time using **metadata-only heuristics** (no ML). It classifies traffic into **video_streaming**, **gaming**, and **idle** with strong practical accuracy; **browsing** is supported but remains difficult due to QUIC/HTTP3 multiplexing, caching, and background traffic. The script also reports **cumulative direction dominance** (AP→Device vs Device→AP) in bytes and packets.
